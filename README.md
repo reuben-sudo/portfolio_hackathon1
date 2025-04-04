@@ -5,7 +5,8 @@ This is a simple, responsive portfolio built using HTML, CSS, and JavaScript.
 
 ## 🔗 Live Demo
 
-📌 Coming soon...
+🌐 [View Portfolio Live](https://reuben-sudo.github.io/portfolio_hackathon1/)
+
 
 ## 📁 Project Structure
 
