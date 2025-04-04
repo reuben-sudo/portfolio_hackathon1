@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    scroll-behavior: smooth; /* Adds smooth scrolling */
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Makes the list items appear in a row */
+    justify-content: center; /* Centers the navigation items */
+}
+
+nav ul .nav-item {
+    margin: 0 15px; /* Adds space between the items */
+}
+
+nav ul .nav-item a {
+    color: #007bff; /* Adds blue color to the links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul .nav-item a:hover {
+    color: #0056b3; /* Changes the link color on hover */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 120px; 
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+button a {
+    color: white; /* Ensures the link in the button is white */
+    text-decoration: none; /* Removes underline from the link */
+}
+
+button#downloadCV {
+    margin-top: 20px;
+}
+
+
